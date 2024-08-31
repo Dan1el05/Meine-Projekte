@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper", "Minesweeper\Minesweeper.csproj", "{45904CFD-5FA9-4025-85A1-8BAC2E0F6089}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19} = {DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.Logic", "Minesweeper.Logic\Minesweeper.Logic.csproj", "{B9FA08FA-8155-4AA4-8D9A-2A0CB90FE908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.LogicTests", "Minesweeper.LogicTests\Minesweeper.LogicTests.csproj", "{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10B79F99-C87E-4D04-87EE-FE9756EFF64B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45904CFD-5FA9-4025-85A1-8BAC2E0F6089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45904CFD-5FA9-4025-85A1-8BAC2E0F6089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45904CFD-5FA9-4025-85A1-8BAC2E0F6089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45904CFD-5FA9-4025-85A1-8BAC2E0F6089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FA08FA-8155-4AA4-8D9A-2A0CB90FE908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA08FA-8155-4AA4-8D9A-2A0CB90FE908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA08FA-8155-4AA4-8D9A-2A0CB90FE908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA08FA-8155-4AA4-8D9A-2A0CB90FE908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCCE7F8-9858-4B37-A8B4-74F815E9CC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C036500-D2DC-4586-AC5A-4329666A158E}
+	EndGlobalSection
+EndGlobal

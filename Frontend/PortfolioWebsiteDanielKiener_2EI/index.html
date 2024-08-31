@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="images/logo.ico" type="image/x-icon">
+
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <img src="images/logo.png" class="logo" alt="">
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#übermich">Über Mich</a>
+      <a href="#Faeigkeiten">Fähigkeiten</a>
+      <a href="#Kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Guten Tag! Ich bin</h3>
+      <h1>Daniel Kiener</h1>
+      <h3>ein <span>angehender Informatiker</span></h3>
+      <p>Ich bin ein Informatikschüler und Webentwickler, der seine Leidenschaft für Sport und die Natur teilt. Die
+        digitale Welt und die frische Luft sind meine beiden Welten.</p>
+      <div class="social-media">
+        <a href="mailto:daniel.kiener@ksb-sg.ch"><i class='bx bxl-gmail'></i></a>
+        <a href="https://www.linkedin.com/in/daniel-kiener-09707729b/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="https://github.com/Dan1el05/Meine_Projekte" class="btn"> Meine Projekte</a>
+    </div>
+
+    <div class="home-img">
+      <img src="images/home.png" alt="home">
+    </div>
+
+  </section>
+
+  <!-- about section design -->
+
+  <section class="about" id="übermich">
+    <div class="about-img">
+      <img src="images/about.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading"> Über <span>Mich</span></h2>
+      <h3>Angehender Informatiker</h3>
+      <p>Hallo, ich bin Daniel Kiener, und meine Leidenschaft für die Informatik hat mich an die Informatikmittelschule
+        geführt, wo ich eine Ausbildung als Informatiker verfolge.
+        Neben meiner Begeisterung für die Welt des Codes und der Algorithmen, genieße ich es, meine Freizeit im Freien
+        zu verbringen und Sport zu treiben. Ich habe ein besonderes Interesse an der Webentwicklung und programmiere
+        gerne eigene Websites. In der Schule habe ich bereits Grundlagen in den Programmiersprachen C# und C erlernt und
+        freue mich auf weitere Entwicklungen in diesem Bereich.</p>
+    </div>
+  </section>
+
+  <!-- skills section design -->
+
+  <section class="skills" id="Faeigkeiten">
+    <h2 class="heading">Meine <span>Fähigkeiten</span> </h2>
+
+    <div class="skills-row">
+      <div class="skills-column">
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>HTML <span>80%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>CSS <span>80%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>JS<span>10%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>C<span>40%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>C# <span>50%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>SQL <span>60%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Powershell<span>30%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Bash<span>30%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact section design -->
+
+  <section class="contact" id="Kontakt">
+    <div class="contact-text">
+      <h1>Kontaktieren Sie <span>mich</span> per E-Mail</h1>
+    </div>
+    <div class="contact-background">
+      <div class="centered-button">
+        <a href="mailto:daniel.kiener@ksb-sg.ch" class="btn">Jetzt kontaktieren</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer design -->
+
+  <div class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Daniel | All Rights Reserved.</p>
+      <a href="impressum.html">Impressum</a>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </div>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
