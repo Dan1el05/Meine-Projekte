@@ -1,0 +1,92 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Label Styles */
+Label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.label-small {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333;
+}
+
+/* TextField Styles */
+TextField,
+PasswordField {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+}
+
+TextField:focused,
+PasswordField:focused {
+    -fx-border-color: #6aa9ff;
+}
+
+/* Button Styles */
+Button {
+    -fx-background-color: #6aa9ff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+Button:hover {
+    -fx-background-color: #5591e6;
+}
+
+Button:pressed {
+    -fx-background-color: #4178d1;
+}
+
+/* Hyperlink Styles */
+Hyperlink {
+    -fx-text-fill: #6aa9ff;
+    -fx-font-size: 14px;
+}
+
+Hyperlink:hover {
+    -fx-text-fill: #5591e6;
+}
+
+/* ImageView Styles */
+ImageView {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+#lbFahrradverleih {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-font-size: 26px;
+}
+
+#lbBiken,
+#lbHallo {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.choice-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-text-fill: #333;
+}
+
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-text-fill: #333;
+}

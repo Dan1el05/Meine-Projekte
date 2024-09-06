@@ -1,0 +1,15 @@
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\bin\Debug\net7.0\Fussballmanschaft_Uebung_daniel.exe
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\bin\Debug\net7.0\Fussballmanschaft_Uebung_daniel.deps.json
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\bin\Debug\net7.0\Fussballmanschaft_Uebung_daniel.runtimeconfig.json
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\bin\Debug\net7.0\Fussballmanschaft_Uebung_daniel.dll
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\bin\Debug\net7.0\Fussballmanschaft_Uebung_daniel.pdb
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.AssemblyInfoInputs.cache
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.AssemblyInfo.cs
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.csproj.CoreCompileInputs.cache
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.dll
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\refint\Fussballmanschaft_Uebung_daniel.dll
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.pdb
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.genruntimeconfig.cache
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\ref\Fussballmanschaft_Uebung_daniel.dll
+C:\Users\dan1e\OneDrive - Kt. SG BLD\Module\M320_Daniel\Fussballmanschaft_Uebung_daniel\Fussballmanschaft_Uebung_daniel\obj\Debug\net7.0\Fussballmanschaft_Uebung_daniel.sourcelink.json

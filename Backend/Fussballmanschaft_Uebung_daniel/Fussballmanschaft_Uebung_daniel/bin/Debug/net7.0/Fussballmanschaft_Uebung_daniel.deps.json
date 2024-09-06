@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Fussballmanschaft_Uebung_daniel/1.0.0": {
+        "runtime": {
+          "Fussballmanschaft_Uebung_daniel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fussballmanschaft_Uebung_daniel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

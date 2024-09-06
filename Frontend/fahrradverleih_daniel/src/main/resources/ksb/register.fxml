@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ksb.RegisterController">
+   <children>
+      <StackPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="372.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/canyon-spectral-al-7-2016-vertical-green-all-mountain.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" prefHeight="346.0" prefWidth="285.0" spacing="10" style="-fx-background-color: white;">
+               <children>
+                  <Label style="-fx-font-size: 24;" text="Bike Verleih - Registrierung">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin></Label>
+                  <TextField fx:id="vornameField" promptText="Vorname">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin></TextField>
+                  <TextField fx:id="nachnameField" promptText="Nachname">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin></TextField>
+                  <TextField fx:id="emailField" promptText="Email">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin></TextField>
+                  <PasswordField fx:id="passwordField" promptText="Passwort">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin></PasswordField>
+                  <PasswordField fx:id="confirmPasswordField" promptText="Passwort bestätigen">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin></PasswordField>
+                  <Button onAction="#handleRegisterButtonAction" text="Registrieren" />
+                  <Hyperlink onAction="#handleLoginAction" text="Bereits ein Konto? Login">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Hyperlink>
+                  <Label fx:id="feedbackLabel" />
+               </children>
+               <StackPane.margin>
+                  <Insets bottom="50.0" left="150.0" right="150.0" top="50.0" />
+               </StackPane.margin>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

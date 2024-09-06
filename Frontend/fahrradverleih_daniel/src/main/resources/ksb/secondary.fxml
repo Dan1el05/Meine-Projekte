@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="720.0" prefWidth="618.0" stylesheets="@myStyleSheetBlack.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ksb.SecondaryController">
+   <content>
+      <VBox fx:id="vbFahrrad" alignment="TOP_CENTER" focusTraversable="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="1031.0" prefWidth="609.0" spacing="10.0">
+         <children>
+            <HBox>
+               <children>
+                  <StackPane alignment="TOP_CENTER" prefHeight="160.0" prefWidth="589.0">
+                     <children>
+                        <ImageView fitHeight="310.0" fitWidth="599.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Hintergrund.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="lbFahrradverleih" alignment="CENTER" prefHeight="33.0" prefWidth="400.0" text="Fahrradverleih Toggenburg">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets top="50.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <VBox prefHeight="341.0" prefWidth="627.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="37.0" prefWidth="905.0" spacing="5.0">
+                                 <children>
+                                    <Label fx:id="lbBiken" text="BikenToggenburg.ch" />
+                                    <Label fx:id="lbHallo" alignment="CENTER" text="Wilkommen">
+                                       <HBox.margin>
+                                          <Insets left="150.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                                <Button onAction="#changeBlack">
+                                                    <graphic>
+                                                        <ImageView fx:id="ivMoon" fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                                            <image>
+                                                                <Image url="@../image/sun-8726.png" />
+                                                            </image>
+                                                        </ImageView>
+                                                    </graphic>
+                                                </Button>
+                                                <Button onAction="#handleLogout">
+                                                    <graphic>
+                                                        <ImageView fx:id="ivLogout" fitHeight="27.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                            <image>
+                                                                <Image url="@../image/exit-2860.png" />
+                                                            </image>
+                                                        </ImageView>
+                                                    </graphic>
+                                               </Button>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </StackPane>
+               </children>
+               <VBox.margin>
+                  <Insets left="10" top="10" />
+               </VBox.margin>
+            </HBox>
+            <VBox prefHeight="118.0" prefWidth="600.0">
+               <children>
+                  <HBox alignment="TOP_RIGHT" prefHeight="105.0" prefWidth="600.0" spacing="20.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="116.0" prefWidth="327.0"  text="Der Fahrradverleih Toggenburg bietet E-Bikes, Mountainbikes und Rennräder mit flexiblen Mietzeiten. Entdecken Sie die schöne Landschaft der Region bequem und unkompliziert!" wrapText="true">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox spacing="10.0">
+                           <children>
+                              <ChoiceBox fx:id="bikeSelection" prefWidth="200.0">
+                                 <VBox.margin>
+                                    <Insets right="10.0" />
+                                 </VBox.margin>
+                              </ChoiceBox>
+                              <DatePicker fx:id="datePicker" />
+                              <Button onAction="#handleBuchenButtonAction"  text="BUCHEN" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="371.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="177.0" prefWidth="546.0" spacing="20">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="177.0" prefWidth="192.0" spacing="10">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="256.0" text="Hardtail | 35 CHF | Grand Canyon 5" />
+                              <ImageView fitHeight="146.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/GrandCanyon5.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="177.0" prefWidth="193.0" spacing="10">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="263.0" text="E-Bike | 35 CHF | Spectral:ON CF 8" />
+                              <ImageView fitHeight="146.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/spectral27,5CF8.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="20">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="141.0" prefWidth="201.0" spacing="10">
+                           <children>
+                              <Label text="Vollgefedert | 45 CHF | Spectral 27.5 CF 8" />
+                              <ImageView fitHeight="146.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/spectral27.5CF8.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="141.0" prefWidth="189.0" spacing="10">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="280.0" text="Rennrad | 45 CHF | Ultimate CFR WRL" />
+                              <ImageView fitHeight="146.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/RennradUltimate.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="159.0" prefWidth="600.0" spacing="20">
+               <children>
+                  <Label prefHeight="149.0" prefWidth="310.0" style="-fx-font-size: 12;" text="Der Fahrradverleih Toggenburg wurde 2015 gegründet, um Besuchern und Einheimischen hochwertige Fahrräder zur Erkundung der Region anzubieten. Mit einer breiten Auswahl und lokalen Routeneempfehlungen hat sich der Verleih schnell etabliert." wrapText="true">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <VBox alignment="CENTER" prefHeight="159.0" prefWidth="340.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="31.0" prefWidth="145.0" text="Öffnungszeiten" />
+                        <Label prefHeight="103.0" prefWidth="221.0" text="Mo geschlossen\nDi 12:00 - 16:30 Uhr\nMi 12:00 - 16:30 Uhr\nDo 12:00 - 16:30 Uhr\nFr 12:00 - 16:30 Uhr\nSa 09:00 - 16:30 Uhr\nSo 09:00 - 16:30 Uhr" wrapText="true" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

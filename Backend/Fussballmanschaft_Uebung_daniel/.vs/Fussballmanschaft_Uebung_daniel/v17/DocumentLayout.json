@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\resultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\resultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\torwart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\torwart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\feldspieler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\feldspieler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\fussballmanschaft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|c:\\users\\dan1e\\onedrive - kt. sg bld\\module\\m320_daniel\\fussballmanschaft_uebung_daniel\\fussballmanschaft_uebung_daniel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787DA014-27C7-44E6-9CC7-3DBA2F248675}|Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel.csproj|solutionrelative:fussballmanschaft_uebung_daniel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spiel.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Spiel.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Spiel.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Spiel.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Spiel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:21:28.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resultat.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Resultat.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Resultat.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Resultat.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Resultat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:21:17.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Torwart.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Torwart.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Torwart.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Torwart.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Torwart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:20:58.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Feldspieler.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Feldspieler.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Feldspieler.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Feldspieler.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Feldspieler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:20:47.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fussballmanschaft.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Fussballmanschaft.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Fussballmanschaft.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:20:35.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Program.cs",
+              "RelativeDocumentMoniker": "Fussballmanschaft_Uebung_daniel\\Program.cs",
+              "ToolTip": "C:\\Users\\dan1e\\OneDrive - Kt. SG BLD\\Module\\M320_Daniel\\Fussballmanschaft_Uebung_daniel\\Fussballmanschaft_Uebung_daniel\\Program.cs",
+              "RelativeToolTip": "Fussballmanschaft_Uebung_daniel\\Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwFUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-22T19:11:52.76Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
