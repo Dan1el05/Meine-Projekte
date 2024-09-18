@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geldmanager</title>
+  <style>
+    /* Stile nach Bedarf anpassen */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .index-container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Inhalt horizontal zentrieren */
+      align-items: center; /* Inhalt vertikal zentrieren */
+      text-align: center; /* Zentrieren des Textes */
+    }
+
+    h1 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+      font-size: 28px;
+      width: 100%;
+    }
+
+    h2 {
+      color: #2e7d32;
+      font-size: 23px;
+      width: 100%;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, button {
+      width: calc(50% - 12px);
+      padding: 10px;
+      margin-bottom: 8px; /* Verkleinern des Abstands */
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.3s;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .budget-info {
+      margin-top: 20px;
+      text-align: left;
+      width: 100%; /* Vollständige Breite */
+    }
+
+    .budget-amount {
+      font-weight: bold;
+    }
+
+    .negative-number {
+      color: red;
+    }
+
+    /* CSS für das Kreisdiagramm */
+    #budgetChartContainer {
+      width: 100%; /* Vollständige Breite */
+      margin-top: 20px;
+    }
+
+    #budgetChart {
+      max-width: 200px; /* Verkleinern des Kreisdiagramms */
+      margin: 0 auto; /* Zentrieren des Kreisdiagramms */
+    }
+  </style>
+</head>
+<body>
+  <!-- Hauptcontainer für die Indexseite -->
+  <div class="index-container">
+    <!-- Überschrift "Geldmanager" -->
+    <h1>Geldmanager</h1>
+    <!-- Begrüßungsnachricht mit dem Namen des Benutzers -->
+    <h2>Willkommen <%= name %></h2>
+
+    <!-- Formular zur Aktualisierung des Budgets -->
+    <div class="budget-info">
+      <form action="/updateBudget" method="POST">
+        <!-- Eingabefeld für das Budget -->
+        <label for="budget">Dein Budget:</label>
+        <input type="number" id="budget" name="budget" value="<%= budget %>" required>
+        <!-- Button zum Aktualisieren des Budgets -->
+        <button type="submit">Budget aktualisieren</button>
+      </form>
+
+      <!-- Formular zum Hinzufügen einer Ausgabe -->
+      <form action="/addExpense" method="POST">
+        <!-- Eingabefeld für die Ausgabe -->
+        <label for="expense">Ausgabe eingeben:</label>
+        <input type="number" id="expense" name="expense" required>
+        <!-- Button zum Hinzufügen der Ausgabe -->
+        <button type="submit">Ausgabe hinzufügen</button>
+      </form>
+
+      <!-- Anzeige von Budgetinformationen -->
+      <div class="budget-info">
+        <!-- Anzeige des Budgets -->
+        <p><strong>Budget:</strong> <span class="budget-amount <%= budget < 0 ? 'negative-number' : '' %>">CHF <%= budget.toLocaleString('de-CH') %></span></p>
+        <!-- Anzeige der Gesamtausgaben -->
+        <p><strong>Ausgegeben:</strong> CHF <%= spent.toLocaleString('de-CH') %></p>
+        <!-- Anzeige des verfügbaren Budgets -->
+        <p><strong>Verfügbares Budget:</strong> <span class="budget-amount <%= availableBudget < 0 ? 'negative-number' : '' %>">CHF <%= availableBudget.toLocaleString('de-CH') %></span></p>
+      </div>
+
+      <!-- Formular zum Zurücksetzen des Budgets und der Ausgaben -->
+      <form action="/reset" method="POST">
+        <!-- Button zum Zurücksetzen des Budgets und der Ausgaben -->
+        <button type="submit">Budget und Ausgaben zurücksetzen</button>
+      </form>
+
+      <!-- Formular zum Abmelden -->
+      <form action="/logout?_method=DELETE" method="POST">
+        <!-- Button zum Abmelden -->
+        <button type="submit">Abmelden</button>
+      </form>
+    </div>
+
+    <!-- Container für das Budgetdiagramm -->
+    <div id="budgetChartContainer">
+      <!-- Canvas-Element für das Budgetdiagramm -->
+      <canvas id="budgetChart" width="200" height="200"></canvas>
+    </div>
+  </div>
+
+  <!-- Einbindung von Chart.js-Bibliothek -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- JavaScript-Code für die Erstellung des Budgetdiagramms -->
+  <script>
+    // Daten für das Budgetdiagramm
+    const budgetData = {
+      labels: ['Budget', 'Ausgegeben'],
+      datasets: [{
+        data: [ <%= budget %>, <%= spent %> ],
+        // Hintergrundfarben für die Segmente des Diagramms
+        backgroundColor: ['<%= budget < 0 ? "red" : "#4caf50" %>', '<%= budget < 0 ? "red" : "#ff6384" %>']
+      }]
+    };
+
+    // Optionen für das Budgetdiagramm
+    const budgetChartOptions = {
+      responsive: true,
+      maintainAspectRatio: false,
+      legend: {
+        display: true,
+        position: 'right'
+      }
+    };
+
+    // Kontext für das Zeichnen des Diagramms
+    const ctx = document.getElementById('budgetChart').getContext('2d');
+    // Erstellung des Budgetdiagramms
+    const budgetChart = new Chart(ctx, {
+      type: 'pie', // Diagrammtyp: Kreisdiagramm
+      data: budgetData,
+      options: budgetChartOptions
+    });
+  </script>
+</body>
+
+</html>
